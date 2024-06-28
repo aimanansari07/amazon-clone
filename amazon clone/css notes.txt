@@ -1,0 +1,25 @@
+important notes for flex box isko ratna padhega 
+
+flex box
+
+To Start flex box we need to set property display flex(this is for main container that conatain flex items)
+
+if flex directions is set to row then the main axis is row (lft to right ) and cross axis is column(top to bottom)
+
+if flex directions is set to column then the main axis is column (top to bottom ) and cross axis is row(left to right)
+
+justfy content space around :the side(sapce btwn container boundry and element) sapace is half of space btwn elemnts
+
+justfy content space between :isme (no space between elemnt and container boundry)side space hat jaati hai and sabko equal space aata hai
+
+justfy content space evenly :isme space between elemnt and container boundry are equal and sabko equal space aata hai
+
+align content and align items mainly works on cross axis(if flex directions is set to row then the main axis is row (lft to right ) and cross axis is column(top to bottom))
+
+align self this also works on cross axis(this is property for flex itms not container)
+
+flex wrap is used to wrap multiple elemtn it mainly works when elemnts are present in multiple line
+
+note:justify content works on main axis where align content and align items,align self  mainly works on cross axis
+
+align itmes used for flex container and align self(high priority) used for aling the flex itmes .
